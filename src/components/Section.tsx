@@ -2,8 +2,8 @@ import Info from './Info';
 
 interface UserMetaDataType {
   id: number;
-  companyName: string;
-  position: string;
+  title: string;
+  position?: string;
   duration: string;
   description: string;
 }
@@ -21,7 +21,7 @@ function Section({ heading, userMetaData }: SectionProps) {
           {userMetaData.map((data) => (
             <Info
               key={data.id}
-              title={data.companyName}
+              title={data.title}
               subTitle={data.position}
               duration={data.duration}
               description={data.description}

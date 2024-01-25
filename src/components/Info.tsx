@@ -11,7 +11,7 @@ function Info({ title, subTitle, duration, description }: InfoProps) {
       <div className="section-wrapper mb-40">
         <div className="section-details">
           <div className="title">
-            {title} - <span className="sub-title">{subTitle}</span>
+            {title} <span className="sub-title">{subTitle ? `- ${subTitle}` : ''}</span>
           </div>
           <div className="duration">{duration}</div>
         </div>
