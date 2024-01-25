@@ -1,15 +1,20 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 6rem;
   /*text-align: center; */
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .resume-outline {
   background-color: #fcfcfc;
   border: 0 solid #e0e0e0;
   padding: 40px;
-  width: 100%;
   border-radius: 15px;
 }
 
@@ -17,6 +22,15 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 150px;
+}
+
+.mb-80 {
+  margin-bottom: 80px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
 }
 
 .text {
@@ -26,4 +40,53 @@
 
 .user-info {
   font-size: 16px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 56px;
+}
+
+.section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 0 auto;
+  gap: 78px;
+}
+
+.text-upper {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.section-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.section-details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 12px;
+  line-height: 0.6;
+}
+
+.title {
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 900;
+}
+
+.sub-title {
+  color: #a9a9a9;
+  font-size: 14px;
 }
