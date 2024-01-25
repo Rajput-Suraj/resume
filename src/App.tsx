@@ -1,12 +1,13 @@
-import './App.css'
+import Resume from './components/Resume';
+
+import './App.css';
 
 function App() {
-
   return (
     <>
-      <h1>Hello World</h1>
+      <Resume />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

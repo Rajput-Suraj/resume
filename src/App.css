@@ -2,28 +2,28 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  /*text-align: center; */
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.resume-outline {
+  background-color: #fcfcfc;
+  border: 0 solid #e0e0e0;
+  padding: 40px;
+  width: 100%;
+  border-radius: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.card {
-  padding: 2em;
+.text {
+  font-weight: 400;
+  font-size: 52px;
 }
 
-.read-the-docs {
-  color: #888;
+.user-info {
+  font-size: 16px;
 }
