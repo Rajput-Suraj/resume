@@ -1,9 +1,10 @@
 import Section from './Section';
+import { workExpriences } from '../utils/constants';
 
 function Body() {
   return (
     <div className="wrapper">
-      <Section />
+      <Section heading='Experience' userMetaData={workExpriences} />
     </div>
   );
 }

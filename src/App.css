@@ -87,6 +87,10 @@
 }
 
 .sub-title {
+  font-weight: 400;
+}
+
+.duration {
   color: #a9a9a9;
   font-size: 14px;
 }
