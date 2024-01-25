@@ -33,3 +33,14 @@ export const educations = [
     description: 'B.E. Computer Science & Engineering',
   },
 ];
+
+export const skills = [
+  'React.js',
+  'Javascript',
+  'Redux',
+  'GIT',
+  'HTML',
+  'CSS',
+  'Material UI',
+  'REST API',
+];

@@ -1,8 +1,8 @@
 interface InfoProps {
   title: string;
   subTitle?: string;
-  duration: string;
-  description: string;
+  duration?: string;
+  description?: string;
 }
 
 function Info({ title, subTitle, duration, description }: InfoProps) {

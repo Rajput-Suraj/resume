@@ -4,12 +4,12 @@ interface UserMetaDataType {
   id: number;
   title: string;
   position?: string;
-  duration: string;
-  description: string;
+  duration?: string;
+  description?: string;
 }
 interface SectionProps {
   heading: string;
-  userMetaData: UserMetaDataType[];
+  userMetaData?: UserMetaDataType[];
 }
 
 function Section({ heading, userMetaData }: SectionProps) {
@@ -18,7 +18,7 @@ function Section({ heading, userMetaData }: SectionProps) {
       <div className="section">
         <div className="text-upper">{heading}</div>
         <div>
-          {userMetaData.map((data) => (
+          {userMetaData?.map((data) => (
             <Info
               key={data.id}
               title={data.title}
@@ -28,7 +28,6 @@ function Section({ heading, userMetaData }: SectionProps) {
             />
           ))}
         </div>
-
       </div>
     </>
   );
