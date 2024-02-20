@@ -1,35 +1,38 @@
-import Info from './Info';
-
-interface UserMetaDataType {
-  id: number;
-  title: string;
+interface Info {
+  id?: number;
+  title?: string;
   position?: string;
   duration?: string;
   description?: string;
 }
-interface SectionProps {
+interface Props {
   heading: string;
-  userMetaData?: UserMetaDataType[];
+  information: Info[];
 }
 
-function Section({ heading, userMetaData }: SectionProps) {
+function Section({ heading, information }: Props) {
   return (
-    <>
-      <div className="section">
-        <div className="text-upper">{heading}</div>
-        <div>
-          {userMetaData?.map((data) => (
-            <Info
-              key={data.id}
-              title={data.title}
-              subTitle={data.position}
-              duration={data.duration}
-              description={data.description}
-            />
-          ))}
-        </div>
-      </div>
-    </>
+    <div className="my-10">
+      <div className="">{heading}</div>
+      {
+        information?.map(({ id, title, position, duration, description }) => {
+          return (
+            <div key={id} className="flex items-start flex-row my-5 gap-5">
+              <div className="text-neutral-500 font-semibold text-md w-1/4">
+                {duration}
+              </div>
+              <div className="w-9/12">
+                <div className="text-lg font-semibold">{title}</div>
+                <p className="text-neutral-400">{position}</p>
+                <p className="text-neutral-400 my-1">
+                  {description}
+                </p>
+              </div>
+            </div>
+          )
+        })
+      }
+    </div>
   );
 }
 
