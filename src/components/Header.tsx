@@ -1,10 +1,10 @@
-import { MdEmail } from 'react-icons/md';
+import { BiLogoGmail } from "react-icons/bi";
 import { FaLinkedin, FaGithubSquare } from 'react-icons/fa';
 
 function Header() {
   return (
     <>
-      <div className="flex items-start gap-3">
+      <div className="flex items-start gap-5">
         <div className="w-24 h-24">
           <img
             className="rounded-full"
@@ -35,7 +35,7 @@ function Header() {
             </span>
             <span>
               <a href="mailto: surajarajput@gmail.com" target="_blank" rel="noopener noreferrer">
-                <MdEmail />
+                <BiLogoGmail />
               </a>
             </span>
           </div>
