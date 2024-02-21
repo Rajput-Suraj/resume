@@ -70,7 +70,7 @@ function App() {
 
   return (
     <div className="dark:text-offWhite-50 dark:bg-customDark-600 p-6 duration-100">
-      <div className="fixed top-5 right-10 duration-100 dark:bg-customDark-600 bg-gray-100 rounded">
+      <div className="fixed top-5 right-2 duration-100 dark:bg-customDark-600 bg-gray-100 rounded">
         <div className="flex items-center justify-between flex-col sm:flex-row">
           {options.map((option: any) => {
             return (
