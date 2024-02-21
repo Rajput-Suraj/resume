@@ -34,7 +34,9 @@ function Header() {
               </a>
             </span>
             <span>
-              <MdEmail />
+              <a href="mailto: surajarajput@gmail.com" target="_blank" rel="noopener noreferrer">
+                <MdEmail />
+              </a>
             </span>
           </div>
         </div>
