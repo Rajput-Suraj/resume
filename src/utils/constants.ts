@@ -4,24 +4,21 @@ export const workExpriences = [
     title: 'Enquero, Inc.',
     position: 'React Developer',
     duration: '2022 - Present',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas repudiandae cupiditate.',
+    description: '',
   },
   {
     id: 2,
     title: 'Assystant Technologies',
     position: 'Software Engineer',
     duration: '2020 - 2022',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas repudiandae cupiditate.',
+    description: '',
   },
   {
     id: 3,
     title: 'Triwits Technologies',
     position: 'Junior Software Engineer',
     duration: '2018 - 2020',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas repudiandae cupiditate.',
+    description: '',
   },
 ];
 
