@@ -12,7 +12,8 @@ export const workExpriences = [
     title: 'Assystant Technologies',
     position: 'Software Engineer',
     duration: '2020 - 2022',
-    description: '',
+    description:
+      'React.js Software Engineer, crafting seamless applications with a focus on user interaction.',
   },
   {
     id: 3,
