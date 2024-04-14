@@ -34,7 +34,7 @@ export const educations = [
 
 export const skills = [
   'React.js',
-  'Javascript',
+  'JavaScript',
   'Redux',
   'GIT',
   'HTML',
