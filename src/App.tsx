@@ -85,7 +85,7 @@ function App() {
           })}
         </div>
       </div>
-      <div className="container mx-auto lg:px-80 ">
+      <div className="container mx-auto lg:px-80">
         <Header />
         <Main />
       </div>
