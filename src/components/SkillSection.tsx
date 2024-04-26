@@ -3,7 +3,7 @@ import { skills } from '../utils/constants';
 function SkillSection() {
   return (
     <>
-      <div className="section" style={{ gap: '130px' }}>
+      <div className="section" style={{ gap: '131px' }}>
         <div className="text-upper">Skillset</div>
         <div className="section-wrapper mb-40">
           <div className="section-details">
