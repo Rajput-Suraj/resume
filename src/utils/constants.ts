@@ -12,7 +12,7 @@ export const workExpriences = [
     title: 'Assystant Technologies',
     position: 'Software Engineer',
     duration: '2020 - 2022',
-    description: '',
+    description: 'Lorem',
   },
   {
     id: 3,
