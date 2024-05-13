@@ -28,7 +28,7 @@ export const educations = [
     id: 1,
     title: 'Bachelor of Engineering, CSE from KLS Gogte Institute of Technology',
     duration: '2015 - 2018',
-    description: 'Belgaum, Karnataka',
+    description: '',
   },
 ];
 
