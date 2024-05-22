@@ -75,7 +75,7 @@ function App() {
           {options.map((option: any) => {
             return (
               <button
-                key={option?.text}
+                key={option.text}
                 onClick={() => setTheme(option.text)}
                 className={`w-8 h-8 leading-9 p-1 text-xl rounded-full m-1 ${theme === option?.text && 'text-neutral-900'}`}
               >
