@@ -41,4 +41,5 @@ export const skills = [
   'CSS',
   'Material UI',
   'REST API',
+  'Jira',
 ];
