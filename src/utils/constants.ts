@@ -21,6 +21,7 @@ export const workExpriences = [
     duration: '2018 - 2020',
     description: '',
   },
+  {},
 ];
 
 export const educations = [
